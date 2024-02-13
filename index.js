@@ -14,6 +14,7 @@ app.get("/date", (request, response) => {
 
 app.get("/page", (request, response) => {
   response.sendFile("./page.html", { root: __dirname });
+//   console.log(__dirname);
 });
 
 app.listen(3000);
